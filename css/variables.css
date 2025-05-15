@@ -1,0 +1,110 @@
+:root {
+  /* Cores principais */
+  --color-primary: #2E7D32;
+  --color-primary-light: #4CAF50;
+  --color-primary-dark: #1B5E20;
+  
+  --color-secondary: #1565C0;
+  --color-secondary-light: #1E88E5;
+  --color-secondary-dark: #0D47A1;
+  
+  --color-accent: #F57C00;
+  --color-accent-light: #FF9800;
+  --color-accent-dark: #E65100;
+  
+  /* Cores de estado */
+  --color-success: #2E7D32;
+  --color-warning: #FFA000;
+  --color-error: #D32F2F;
+  --color-info: #0288D1;
+  
+  /* Cores neutras */
+  --color-text: #212121;
+  --color-text-light: #757575;
+  --color-text-dark: #000000;
+  --color-background: #FFFFFF;
+  --color-background-alt: #F5F5F5;
+  --color-border: #E0E0E0;
+  
+  /* Esquema de cores para modo escuro */
+  --dark-color-text: #E0E0E0;
+  --dark-color-text-light: #9E9E9E;
+  --dark-color-text-dark: #FFFFFF;
+  --dark-color-background: #121212;
+  --dark-color-background-alt: #1E1E1E;
+  --dark-color-border: #424242;
+  
+  /* Tipografia */
+  --font-family: 'Montserrat', sans-serif;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.875rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+  
+  /* Espaçamento */
+  --spacing-1: 0.25rem;  /* 4px */
+  --spacing-2: 0.5rem;   /* 8px */
+  --spacing-3: 0.75rem;  /* 12px */
+  --spacing-4: 1rem;     /* 16px */
+  --spacing-5: 1.5rem;   /* 24px */
+  --spacing-6: 2rem;     /* 32px */
+  --spacing-8: 3rem;     /* 48px */
+  --spacing-10: 4rem;    /* 64px */
+  --spacing-12: 5rem;    /* 80px */
+  --spacing-16: 8rem;    /* 128px */
+  
+  /* Bordas e sombras */
+  --border-radius-sm: 0.25rem;  /* 4px */
+  --border-radius-md: 0.5rem;   /* 8px */
+  --border-radius-lg: 1rem;     /* 16px */
+  --border-radius-xl: 1.5rem;   /* 24px */
+  --border-radius-full: 9999px;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+  
+  /* Transições */
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+  
+  /* Layout */
+  --container-padding: var(--spacing-4);
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  --footer-padding: var(--spacing-8);
+  
+  /* Z-index */
+  --z-index-header: 100;
+  --z-index-dropdown: 200;
+  --z-index-modal: 300;
+  --z-index-toast: 400;
+}
+
+/* Classe para tema escuro */
+.dark-theme {
+  --color-text: var(--dark-color-text);
+  --color-text-light: var(--dark-color-text-light);
+  --color-text-dark: var(--dark-color-text-dark);
+  --color-background: var(--dark-color-background);
+  --color-background-alt: var(--dark-color-background-alt);
+  --color-border: var(--dark-color-border);
+  
+  /* Ajustes de cores para modo escuro */
+  --color-primary-light: #66BB6A;
+  --color-secondary-light: #42A5F5;
+  --color-accent-light: #FFB74D;
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTech Brasil - Tecnologias para um Futuro Sustentável</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="theme-switch" aria-label="Alternar tema">
+      <span class="icon-light">☀️</span>
+      <span class="icon-dark">🌙</span>
+    </button>
+  </div>
+
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <h1>EcoTech Brasil</h1>
+      </div>
+      <nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#inicio" class="active">Início</a></li>
+          <li><a href="#tecnologias">Tecnologias</a></li>
+          <li><a href="#estudos-caso">Estudos de Caso</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contato" class="btn-destaque">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="fade-in">Tecnologias que Transformam o Mundo</h2>
+          <p class="fade-in-delay">Descubra como inovações sustentáveis estão revolucionando a maneira como vivemos e preservando o planeta para futuras gerações.</p>
+          <div class="hero-buttons fade-in-delay-2">
+            <a href="#tecnologias" class="btn btn-primary">Explorar Tecnologias</a>
+            <a href="#estudos-caso" class="btn btn-secondary">Ver Estudos de Caso</a>
+          </div>
+        </div>
+        <div class="hero-image fade-in">
+          <div class="hero-image-overlay"></div>
+          <img src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg" alt="Tecnologia sustentável em ação">
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Rolar para baixo</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Tecnologias Sustentáveis</h2>
+          <p>Conheça as principais inovações que estão promovendo a sustentabilidade em diversos setores</p>
+        </div>
+        <div class="tech-categories">
+          <div class="tech-selector">
+            <button class="tech-btn active" data-category="energia">Energia Renovável</button>
+            <button class="tech-btn" data-category="agua">Gestão de Água</button>
+            <button class="tech-btn" data-category="construcao">Construção Verde</button>
+            <button class="tech-btn" data-category="agricultura">Agricultura Sustentável</button>
+            <button class="tech-btn" data-category="transporte">Mobilidade Limpa</button>
+          </div>
+          <div class="tech-content">
+            <div class="tech-panel active" id="energia">
+              <div class="tech-info">
+                <h3>Energia Renovável</h3>
+                <p>Tecnologias que captam energia de fontes naturais e renováveis como sol, vento, água e biomassa, reduzindo a dependência de combustíveis fósseis e diminuindo a emissão de gases de efeito estufa.</p>
+                <ul class="tech-examples">
+                  <li>Painéis solares fotovoltaicos de alta eficiência</li>
+                  <li>Turbinas eólicas de nova geração</li>
+                  <li>Sistemas de armazenamento com baterias sustentáveis</li>
+                  <li>Microgrids inteligentes para comunidades</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Saiba Mais</a>
+              </div>
+              <div class="tech-image">
+                <img src="https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg" alt="Painéis solares e turbinas eólicas">
+              </div>
+            </div>
+            <div class="tech-panel" id="agua">
+              <div class="tech-info">
+                <h3>Gestão de Água</h3>
+                <p>Sistemas inovadores para conservação, purificação e reutilização da água, ajudando a preservar este recurso vital e garantindo acesso sustentável para todos.</p>
+                <ul class="tech-examples">
+                  <li>Sistemas de captação e tratamento de água da chuva</li>
+                  <li>Tecnologias de dessalinização de baixo consumo energético</li>
+                  <li>Filtros biológicos para purificação natural</li>
+                  <li>Sistemas inteligentes de monitoramento de consumo</li>
+                </ul>
+                <a href="#" class="btn btn-outline">Saiba Mais</a>
+              </div>
+              <div class="tech-image">
+                <img src="https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg" alt="Sistema de tratamento de água sustentável">
+              </div>
+            </div>
+            <!-- Outros painéis de tecnologias serão populados com JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estatisticas" class="section section-alt">
+      <div class="container">
+        <div class="stats-container">
+          <div class="stat-card" data-value="75">
+            <div class="stat-number">0%</div>
+            <div class="stat-description">Redução potencial de emissões de carbono até 2050 com adoção de tecnologias verdes</div>
+          </div>
+          <div class="stat-card" data-value="40">
+            <div class="stat-number">0%</div>
+            <div class="stat-description">Economia de água possível com sistemas inteligentes</div>
+          </div>
+          <div class="stat-card" data-value="60">
+            <div class="stat-number">0%</div>
+            <div class="stat-description">Das empresas brasileiras planejam investir em sustentabilidade nos próximos anos</div>
+          </div>
+          <div class="stat-card" data-value="85">
+            <div class="stat-number">0%</div>
+            <div class="stat-description">Dos consumidores preferem produtos de empresas com práticas sustentáveis</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estudos-caso" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Estudos de Caso</h2>
+          <p>Exemplos reais de implementação de tecnologias sustentáveis no Brasil</p>
+        </div>
+        <div class="case-studies">
+          <div class="case-card">
+            <div class="case-image">
+              <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg" alt="Edifício sustentável">
+            </div>
+            <div class="case-content">
+              <h3>Prédio Verde em São Paulo</h3>
+              <p class="case-location">São Paulo, SP</p>
+              <div class="case-tag">Construção Sustentável</div>
+              <p class="case-description">Edifício comercial que reduziu o consumo de energia em 45% através de tecnologias inteligentes e design bioclimático.</p>
+              <a href="#" class="btn btn-text">Ler o Estudo Completo</a>
+            </div>
+          </div>
+          <div class="case-card">
+            <div class="case-image">
+              <img src="https://images.pexels.com/photos/2132171/pexels-photo-2132171.jpeg" alt="Fazenda orgânica">
+            </div>
+            <div class="case-content">
+              <h3>Fazenda Orgânica Vale Verde</h3>
+              <p class="case-location">Chapada Diamantina, BA</p>
+              <div class="case-tag">Agricultura Sustentável</div>
+              <p class="case-description">Propriedade que implementou sistemas agroflorestais e técnicas de permacultura, aumentando a produtividade em 30%.</p>
+              <a href="#" class="btn btn-text">Ler o Estudo Completo</a>
+            </div>
+          </div>
+          <div class="case-card">
+            <div class="case-image">
+              <img src="https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg" alt="Usina de energia solar">
+            </div>
+            <div class="case-content">
+              <h3>Complexo Solar de Pirapora</h3>
+              <p class="case-location">Pirapora, MG</p>
+              <div class="case-tag">Energia Renovável</div>
+              <p class="case-description">Maior usina solar da América Latina, gerando eletricidade limpa para mais de 420 mil residências anualmente.</p>
+              <a href="#" class="btn btn-text">Ler o Estudo Completo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Blog</h2>
+          <p>Notícias e artigos sobre inovações em sustentabilidade</p>
+        </div>
+        <div class="blog-posts">
+          <!-- Blogs serão carregados dinamicamente via JavaScript -->
+        </div>
+        <div class="blog-nav">
+          <button class="btn btn-outline" id="load-more">Carregar Mais</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Entre em Contato</h2>
+          <p>Quer saber mais sobre como implementar tecnologias sustentáveis?</p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h3>Email</h3>
+                <p>contato@ecotechbrasil.com.br</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div>
+                <h3>Telefone</h3>
+                <p>(11) 98765-4321</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h3>Endereço</h3>
+                <p>Av. Paulista, 1000 - São Paulo, SP</p>
+              </div>
+            </div>
+            <div class="social-media">
+              <h3>Siga-nos</h3>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                  <span class="social-icon">Facebook</span>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <span class="social-icon">Instagram</span>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                  <span class="social-icon">LinkedIn</span>
+                </a>
+                <a href="#" aria-label="Twitter">
+                  <span class="social-icon">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+            <div id="form-success" class="form-success hidden">
+              <div class="success-icon">✓</div>
+              <h3>Mensagem Enviada!</h3>
+              <p>Obrigado pelo seu contato. Responderemos em breve.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>EcoTech Brasil</h2>
+          <p>Tecnologias para um futuro sustentável</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Navegação</h3>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#tecnologias">Tecnologias</a></li>
+              <li><a href="#estudos-caso">Estudos de Caso</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Recursos</h3>
+            <ul>
+              <li><a href="#">Guias Práticos</a></li>
+              <li><a href="#">E-books</a></li>
+              <li><a href="#">Vídeos</a></li>
+              <li><a href="#">Webinars</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Políticas</h3>
+            <ul>
+              <li><a href="#">Termos de Uso</a></li>
+              <li><a href="#">Privacidade</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 EcoTech Brasil. Todos os direitos reservados.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#inicio" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</a>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
